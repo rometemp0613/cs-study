@@ -1,5 +1,8 @@
 # 컴퓨터 구조 (Computer Architecture) 학습 기록
 
+**학습 방식**: Claude와 함께 실습 중심 학습
+**학습 시작일**: 기록 보완 필요
+
 **참고 도서**: "Computer Organization and Design" (Patterson & Hennessy)
 **선수과목**: 디지털 논리, 프로그래밍 기초
 **후속과목**: 운영체제, 임베디드 시스템

@@ -1,5 +1,8 @@
 # 소프트웨어 공학 (Software Engineering) 학습 기록
 
+**학습 방식**: Claude와 함께 실습 중심 학습
+**학습 시작일**: 기록 보완 필요
+
 **참고 도서**: "Software Engineering" (Sommerville)
 **선수과목**: 프로그래밍 경험, 데이터베이스
 **후속과목**: 프로젝트 관리, DevOps

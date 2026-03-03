@@ -1,5 +1,8 @@
 # 데이터베이스 (Database) 학습 기록
 
+**학습 방식**: Claude와 함께 실습 중심 학습
+**학습 시작일**: 기록 보완 필요
+
 **참고 도서**: "SQL 전문가 가이드" (한국데이터산업진흥원), "친절한 SQL 튜닝" (조시형), "Database System Concepts" (Silberschatz)
 **목표**: SQLP(SQL 전문가) 자격증 합격 + 실무 DB 역량
 **DBMS**: 공통 이론 위주, SQLP 특화 파트(Part 5~12)에서 Oracle 보충

@@ -1,5 +1,8 @@
 # 컴파일러 (형식언어 + 오토마타 + 컴파일러) 학습 기록
 
+**학습 방식**: Claude와 함께 실습 중심 학습
+**학습 시작일**: 기록 보완 필요
+
 **참고 도서**:
 - "Introduction to the Theory of Computation" (Sipser)
 - "Compilers: Principles, Techniques, and Tools" (Dragon Book)

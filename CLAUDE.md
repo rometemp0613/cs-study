@@ -25,12 +25,28 @@
 
 0. **상위 폴더(study/)의 CLAUDE.md를 먼저 읽고, 변경된 내용이 있는지 확인할 것**
    - 변경 사항이 있으면 이 파일에도 반영
+   - `docs/doc-governance.md` 기준으로 필수 섹션 누락 여부 점검
 
 이 폴더(cs/)에서 대화를 시작하면:
 
 1. 위 과목 목록을 보여주고
 2. 어떤 과목을 공부할지 물어보기
 3. 해당 과목 폴더로 이동해서 학습 진행
+
+## 하위 CLAUDE.md 크로스체크 (매 세션)
+
+- 하위 과목 CLAUDE.md(`data-structures/`, `algorithms/`, `computer-architecture/`, `computer-networks/`, `database/`, `compilers/`, `software-engineering/`, `artificial-intelligence/`)를 교차 비교
+- 새로 발견한 좋은 관행은 과목 적합성을 확인한 뒤 전파 후보로 등록
+- 공통 규칙 변경 시 루트 `CLAUDE.md` 우선 반영
+
+## 전파 프로세스
+
+1. 전파 대상 규칙에 `규칙 ID`를 부여한다.
+2. 루트 `CLAUDE.md`와 충돌 여부를 확인한다.
+3. `cs/CLAUDE.md`에 공통 규칙을 반영한다.
+4. 하위 과목 CLAUDE.md에 순차 반영한다.
+5. `./scripts/audit_docs.sh --strict`로 검증한다.
+6. 루트 `CLAUDE.md` 전파 이력에 기록한다.
 
 ---
 
@@ -72,6 +88,24 @@ notes/ 폴더의 노트는 **"이걸 보면 남에게 설명할 수 있다"** �
 - 기존 notes/ 구조에 맞춰 저장
 - 개념 설명 → 실습 → 주의사항 순서로 구성
 - 실습 예제는 **처음부터 끝까지 따라할 수 있게** 작성
+
+## 학습 완료 후 할 일
+
+> ⚠️ 아래 항목은 학습이 끝나면 **사용자에게 묻지 않고 자동으로 전부 실행**할 것.
+
+- `notes/` 폴더에 학습 노트 작성
+- `review/` 폴더에 새로 배운 용어/틀린 것 추가
+- README.md 체크리스트 업데이트
+- `logs/` 폴더에 학습 일지 기록 (`YYYY-MM-DD.md`)
+- 커밋 및 푸시
+
+## 전파 실패 조건
+
+- 하위 과목 중 1개라도 필수 섹션 누락
+- 복습 시스템/승급 규칙 불일치
+- `./scripts/audit_docs.sh --strict` 실패
+
+---
 
 ## 커밋 관련 참고
 

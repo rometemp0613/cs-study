@@ -1,5 +1,8 @@
 # 인공지능 (Artificial Intelligence) 학습 기록
 
+**학습 방식**: Claude와 함께 실습 중심 학습
+**학습 시작일**: 기록 보완 필요
+
 **참고 도서**: "Artificial Intelligence: A Modern Approach" (Russell & Norvig)
 **선수과목**: 자료구조, 알고리즘, 확률통계, 선형대수
 **후속과목**: 컴퓨터 비전, 자연어 처리, 강화학습

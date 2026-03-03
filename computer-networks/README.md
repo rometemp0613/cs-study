@@ -1,5 +1,8 @@
 # 컴퓨터 네트워크 (Computer Networks) 학습 기록
 
+**학습 방식**: Claude와 함께 실습 중심 학습
+**학습 시작일**: 기록 보완 필요
+
 **참고 도서**: "Computer Networking: A Top-Down Approach" (Kurose & Ross)
 **선수과목**: 운영체제, 자료구조
 **후속과목**: 분산 시스템, 보안
