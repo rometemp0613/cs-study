@@ -18,7 +18,7 @@
 | `algorithms/` | 알고리즘 | 정렬, 탐색, DP, 그리디, 그래프 알고리즘 |
 | `computer-architecture/` | 컴퓨터 구조 | CPU, 메모리, 캐시, 파이프라인 |
 | ~~`operating-systems/`~~ | 운영체제 | **→ `2026-01/operating-systems/`로 이동됨** (2026-1학기 과목) |
-| `computer-networks/` | 컴퓨터 네트워크 | OSI 7계층, TCP/IP, HTTP, 소켓 |
+| ~~`computer-networks/`~~ | 컴퓨터 네트워크 | **→ `2026-01/computer-networks/`로 이동됨** (2026-1학기 과목) |
 | `database/` | 데이터베이스 | SQL, 정규화, 트랜잭션, 인덱스 |
 | `compilers/` | 컴파일러 | 형식언어, 오토마타, 파싱, 코드생성 |
 | `software-engineering/` | 소프트웨어 공학 | 개발방법론, 설계, 테스트, 유지보수 |
